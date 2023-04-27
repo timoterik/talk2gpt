@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright © 2022 - 2023, DCCTech. All Rights Reserved.
+  ~ This copyright notice is the exclusive property of DCCTech and is hereby granted to users
+  ~ for use of DCCTech's intellectual property.
+  ~ Any reproduction, modification, distribution, or other use of DCCTech's intellectual property without prior written
+  ~ consent is strictly prohibited.
+  -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.dcctech.talk2gpt</groupId>
+    <artifactId>Talk2Gpt</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.google.cloud/google-cloud-speech -->
+        <dependency>
+            <groupId>com.google.cloud</groupId>
+            <artifactId>google-cloud-speech</artifactId>
+            <version>4.10.0</version>
+        </dependency>
+
+
+    </dependencies>
+
+</project>
